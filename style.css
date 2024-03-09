@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    height: 100vh;
+    background-image: url(/assets/football-pitch.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  
+  #teamOne,
+  #teamTwo {
+    color: aliceblue;
+    font-size: 2rem;
+    border: 2px solid aliceblue;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.577);
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  
+  #teamOne {
+    margin-right: 80px !important;
+  }
+  
+  
+  .btn {
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+  
